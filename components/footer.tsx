@@ -9,12 +9,10 @@ export function Footer() {
     <footer className="border-t border-border/50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 mt-auto">
       <div className="container mx-auto px-6 py-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          {/* Copyright */}
           <div className="text-sm text-muted-foreground">
-            © {currentYear} 8x Template. All rights reserved.
+            © {currentYear} Sonalysis. Powered by Spotify Web API.
           </div>
 
-          {/* Links */}
           <div className="flex items-center gap-6 text-sm">
             <Link
               href="/privacy"
